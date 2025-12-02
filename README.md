@@ -8,16 +8,27 @@
 
 <pre>
 [Video Stream]
+  
       ↓ (frame sampling)
+  
 [Pose/Gaze Extractor]
+  
         ↓ (keypoint, EAR, gaze, phone-use signals)
+  
 [Feature Aggregator]
+  
         ↓ (stability filtering + time-series features)
+  
 [Segment-level Concentration Model]
+  
         ↓ (rule-based + personal threshold adaptation)
+  
 [LLaMA Coach]
+  
         ↓ (session summary, improvement strategies)
+  
 [Dashboard Visualization]
+  
 </pre>
 
 </div>
